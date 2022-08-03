@@ -1,0 +1,1302 @@
+@import 'Colors.scss';
+
+@media only screen and (min-width: 1201px){
+
+    .login_wrap{
+        // border: 2px solid yellow;
+        width: 60%;
+        height: 36vw;
+        display: flex;
+    
+        .left_box{
+            // border: 2px solid green;
+            background-color: $light_blue;
+            padding: 0% 3.5vw;
+            width: 50%;
+            height: 100%;
+            z-index: 50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            section{
+                // border: 2px solid red;
+                height: 23vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                h3{
+                    color: $white;
+                    font-family: 'Roboto';
+                    font-size: 1.7vw;
+                    font-weight: 600;
+                    letter-spacing: 0.1vw;
+
+                    animation: animate_h3 0.8s ease-in;
+                    @keyframes animate_h3 {
+                        from{
+                            transform: translateY(2vw);
+                        }
+                        to{
+                            transform: translateY(0vw);
+                        }
+                    }
+                }
+
+                
+
+                p{
+                    // margin-top: 1.1vw;
+                    color: $white;
+                    font-size: 1vw;
+                    font-weight: 300;
+                    line-height: 1.7vw;
+
+                    animation: animate_p 0.8s ease-in;
+                    @keyframes animate_p {
+                        from{
+                            transform: translateY(2vw);
+                        }
+                        to{
+                            transform: translateY(0vw);
+                        }
+                    }
+                }
+
+                .inner_sec_styl{
+                    // border: 2px solid yellow;
+                    width: 100%;
+                    height: 4vw;
+                    display: flex;
+                    align-items: center;
+
+                    .sec_styl_icon{
+                        border: 1px solid white;
+                        border-radius: 1vw;
+                        width: 5vw;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-weight: unset !important;
+
+                        .icon{
+                            color: $white;
+                            font-size: 1.6vw;
+                        }
+
+                        animation: animate_sec_styl_icon 0.8s ease-in;
+                        @keyframes animate_sec_styl_icon {
+                            from{
+                                transform: translateY(2vw);
+                            }
+                            to{
+                                transform: translateY(0vw);
+                            }
+                        }
+                    }
+
+                    .sec_styl_name{
+                        // border: 2px solid pink;
+                        margin-left: 0.9vw;
+                        width: 100%;
+                        height: 3.5vw;
+                        position: relative;
+
+                        h5{
+                            color: $white;
+                            font-family: 'Roboto';
+                            font-size: 1.3vw;
+                            font-weight: 650;
+                            letter-spacing: 0.1vw;
+                            position: absolute;
+                            top: 0%;
+
+                            animation: animate_h5 0.8s ease-in;
+                            @keyframes animate_h5 {
+                                from{
+                                    transform: translateY(2vw);
+                                }
+                                to{
+                                    transform: translateY(0vw);
+                                }
+                            }
+                        }
+
+                        p{
+                            margin: 0%;
+                            padding: 0%;
+                            color: $white;
+                            font-size: 1vw;
+                            font-weight: 300;
+                            line-height: unset;
+                            position: absolute;
+                            bottom: 0%;
+                        }
+                    }
+                }
+            }
+
+            animation: animate_left_box  0.5s ease-in;
+            @keyframes animate_left_box {
+                from{
+                    transform: translateY(2vw);
+                }
+                to{
+                    transform: translateY(0vw);
+                }
+            }
+        }
+        
+        .right_box{
+            // border: 2px solid green;
+            background-color: $white;
+            padding-top: 3vw;
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 50;
+    
+            .logo_box{
+                border: 2px solid teal;
+                width: 5vw;
+                height: 5vw;
+
+                animation: animate_logo_box 0.8s ease-in;
+                @keyframes animate_logo_box {
+                    from{
+                        transform: translateY(2vw);
+                    }
+                    to{
+                        transform: translateY(0vw);
+                    }
+                }
+            }
+
+    
+            h3{
+                color: $light_black;
+                padding-top: 1vw;
+                font-family: 'Roboto';
+                font-size: 1.7vw;
+                font-weight: 600;
+                letter-spacing: 0.1vw;
+
+                animation: animate_h3 0.8s ease-in;
+                @keyframes animate_h3 {
+                    from{
+                        transform: translateY(2vw);
+                    }
+                    to{
+                        transform: translateY(0vw);
+                    }
+                }
+            }
+            
+            p{
+                color: $light_black_2;
+                font-size: 1vw;
+                font-weight: 500;
+                margin-bottom: 0.5vw;
+
+                animation: animate_p 0.8s ease-in;
+                @keyframes animate_p {
+                    from{
+                        transform: translateY(2vw);
+                    }
+                    to{
+                        transform: translateY(0vw);
+                    }
+                }
+            }
+    
+            form{
+                // border: 2px solid darkblue;
+                width: 100%;
+                height: fit-content;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+    
+                .input_style{
+                    // border: 2px solid olivedrab;
+                    margin-bottom: 0.4vw;
+                    width: 21vw;
+                    height: auto;
+                    position: relative;
+    
+                    .img_circle{
+                        // border: 1px solid red;
+                        border: 1px solid $light_silver;
+                        background-color: $white;
+                        color: $dark_grey;
+                        border-radius: 50%;
+                        width: 2.5vw;
+                        height: 2.5vw;
+                        position: absolute;
+                        left: 0.19vw;
+                        top: 0.19vw;
+                        font-size: 1.2vw;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+    
+                    input{
+                        outline: none;
+                        border: none;
+                        border-top-left-radius: 1.5vw;
+                        border-bottom-left-radius: 1.5vw;
+                        border-top-right-radius: 1.5vw;
+                        border-bottom-right-radius: 1.5vw;
+                        width: 100%;
+                        height: 2.9vw;
+                        padding-top: 0.2vw;
+                        padding-bottom: 0.2vw;
+                        padding-left: 3.5vw;
+                        color: $blue;
+                        background-color: $light_silver;
+                        font-size: 1.05vw;
+                        display: flex;
+                        align-items: center;
+                    }
+    
+                    input:focus{
+                        outline: 1px solid $blue;
+                    }
+    
+                    small{
+                        padding: 0.2vw;
+                        padding-left: 1vw;
+                        color: $red;
+                        font-size: 1vw;
+                        font-weight: 500;
+                        display: block;
+                    }
+                }
+    
+                .submit{
+                    // border: 2px solid olive;
+    
+                    .img_circle{
+                        display: none;
+                    }
+    
+                    input{
+                        border: none;
+                        outline: 1px solid $blue;
+                        background-color: $light_silver;
+                        color: $blue;
+                        font-size: 1.05vw;
+                        font-weight: 400;
+                        text-align: center;
+                        padding-left: 0% !important;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        transition: all 0.2s ease-in-out;
+                    }
+    
+                    input:hover{
+                        border: none;
+                        outline: none;
+                        background-color: $blue;
+                        background-image: linear-gradient(315deg, $blue 95%, #f5f7f68e 80%);
+                        color: $white;
+                        box-shadow: 0 1px 2px 0 $blue;
+                    }
+    
+                    small{
+                        display: none !important;
+                    }
+                }
+    
+                .lost_pass{
+                    // border: 2px solid green;
+                    color: $dark_grey;
+                    margin-top: 0.5vw;
+                    margin-bottom: 0.5vw;
+                    margin-left: 1.6vw;
+                    width: 16.99vw;
+                    height: 2vw;
+                    font-size: 1vw;
+                    font-weight: 400;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    span{
+                        height: 100%;
+                        position: relative;
+    
+                        #remember{
+                            width: 1vw;
+                            height: 1vw;
+                            position: absolute;
+                            top: 0.24vw;
+                            left: -1.4vw;
+                        }
+                    }
+                }
+    
+                a{
+                    color: $dark_grey;
+                    font-size: 1vw;
+                    font-weight: 400;
+                }
+    
+                a:hover{
+                    text-decoration: underline 1px solid $blue;
+                    color: $blue;
+                }
+
+                animation: animate_form 0.8s ease-in;
+                @keyframes animate_form {
+                    from{
+                        transform: translateY(2vw);
+                    }
+                    to{
+                        transform: translateY(0vw);
+                    }
+                }
+            }
+
+            animation: animate_right_box  0.5s ease-in;
+            @keyframes animate_right_box {
+                from{
+                    transform: translateY(2vw);
+                }
+                to{
+                    transform: translateY(0vw);
+                }
+            }
+        }
+    }
+
+    .signup_page{
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px){
+    
+    .login_wrap{
+        // border: 2px solid yellow;
+        width: 65%;
+        height: 26.97rem;
+        display: flex;
+    
+        .left_box{
+            // border: 2px solid green;
+            background-color: $light_blue;
+            padding: 0% 2.62rem;
+            width: 50%;
+            height: 100%;
+            z-index: 50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            section{
+                // border: 2px solid red;
+                height: 17.23rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                h3{
+                    color: $white;
+                    font-family: 'Roboto';
+                    font-size: 1.27rem;
+                    font-weight: 600;
+                    letter-spacing: 0.1vw;
+
+                    animation: animate_h3 0.8s ease-in;
+                    @keyframes animate_h3 {
+                        from{
+                            transform: translateY(1.49rem);
+                        }
+                        to{
+                            transform: translateY(0rem);
+                        }
+                    }
+                }
+
+                p{
+                    color: $white;
+                    font-size: 0.74rem;
+                    font-weight: 300;
+                    line-height: 1.27rem;
+
+                    animation: animate_p 0.8s ease-in;
+                    @keyframes animate_p {
+                        from{
+                            transform: translateY(1.49rem);
+                        }
+                        to{
+                            transform: translateY(0rem);
+                        }
+                    }
+                }
+
+                .inner_sec_styl{
+                    // border: 2px solid yellow;
+                    width: 100%;
+                    height: 2.99rem;
+                    display: flex;
+                    align-items: center;
+
+                    .sec_styl_icon{
+                        border: 1px solid white;
+                        border-radius: 0.74rem;
+                        width: 3.74rem;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .icon{
+                            color: $white;
+                            font-size: 1.19rem;
+                        }
+
+                        animation: animate_sec_styl_icon 0.8s ease-in;
+                        @keyframes animate_sec_styl_icon {
+                            from{
+                                transform: translateY(1.49rem);
+                            }
+                            to{
+                                transform: translateY(0rem);
+                            }
+                        }
+                    }
+
+                    .sec_styl_name{
+                        // border: 2px solid pink;
+                        margin-left: 0.67rem;
+                        width: 100%;
+                        height: 2.62rem;
+                        position: relative;
+
+                        h5{
+                            color: $white;
+                            font-family: 'Roboto';
+                            font-size: 0.97rem;
+                            font-weight: 650;
+                            letter-spacing: 0.1vw;
+                            position: absolute;
+                            top: 0%;
+
+                            animation: animate_h5 0.8s ease-in;
+                            @keyframes animate_h5 {
+                                from{
+                                    transform: translateY(1.49rem);
+                                }
+                                to{
+                                    transform: translateY(0rem);
+                                }
+                            }
+                        }
+
+                        p{
+                            margin: 0%;
+                            padding: 0%;
+                            color: $white;
+                            font-size: 0.74rem;
+                            font-weight: 300;
+                            line-height: unset;
+                            position: absolute;
+                            bottom: 0%;
+                        }
+                    }
+                }
+            }
+
+            animation: animate_left_box  0.5s ease-in;
+            @keyframes animate_left_box {
+                from{
+                    transform: translateY(1.49rem);
+                }
+                to{
+                    transform: translateY(0rem);
+                }
+            }
+        }
+    
+        .right_box{
+            // border: 2px solid green;
+            background-color: $white;
+            padding-top: 2.2rem;
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 50;
+    
+            .logo_box{
+                border: 2px solid teal;
+                width: 3.74rem;
+                height: 3.74rem;
+
+                animation: animate_logo_box 0.8s ease-in;
+                @keyframes animate_logo_box {
+                    from{
+                        transform: translateY(1.49rem);
+                    }
+                    to{
+                        transform: translateY(0rem);
+                    }
+                }
+            }
+    
+            h3{
+                color: $light_black;
+                padding-top: 0.74rem;
+                font-size: 1.3rem;
+                font-family: 'Roboto';
+                font-weight: 600;
+                letter-spacing: 0.1vw;
+
+                animation: animate_h3 0.8s ease-in;
+                @keyframes animate_h3 {
+                    from{
+                        transform: translateY(1.49rem);
+                    }
+                    to{
+                        transform: translateY(0rem);
+                    }
+                }
+            }
+            
+            p{
+                color: $light_black_2;
+                font-size: 0.8rem;
+                font-weight: 500;
+                margin-bottom: 0.37rem;
+
+                animation: animate_p 0.8s ease-in;
+                @keyframes animate_p {
+                    from{
+                        transform: translateY(1.49rem);
+                    }
+                    to{
+                        transform: translateY(0rem);
+                    }
+                }
+            }
+    
+            form{
+                // border: 2px solid darkblue;
+                width: 100%;
+                height: fit-content;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+    
+                .input_style{
+                    // border: 2px solid olivedrab;
+                    margin-bottom: 0.29rem;
+                    width: 15.9rem;
+                    height: auto;
+                    position: relative;
+    
+                    .img_circle{
+                        // border: 1px solid red;
+                        border: 1px solid $light_silver;
+                        background-color: $white;
+                        color: $dark_grey;
+                        border-radius: 50%;
+                        width: 1.87rem;
+                        height: 1.87rem;
+                        position: absolute;
+                        left: 0.14rem;
+                        top: 0.14rem;
+                        font-size: 0.89rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+    
+                    input{
+                        outline: none;
+                        border: none;
+                        border-top-left-radius: 1.12rem;
+                        border-bottom-left-radius: 1.12rem;
+                        border-top-right-radius: 1.12rem;
+                        border-bottom-right-radius: 1.12rem;
+                        width: 100%;
+                        height: 2.2rem;
+                        padding-top: 0.14rem;
+                        padding-bottom: 0.14rem;
+                        padding-left: 2.62rem;
+                        color: $blue;
+                        background-color: $light_silver;
+                        font-size: 0.78rem;
+                        display: flex;
+                        align-items: center;
+                    }
+    
+                    input:focus{
+                        outline: 1px solid $blue;
+                    }
+    
+                    small{
+                        padding: 0.14rem;
+                        padding-left: 0.74rem;
+                        color: $red;
+                        font-size: 0.74rem;
+                        font-weight: 500;
+                        display: block;
+                    }
+                }
+    
+                .submit{
+                    // border: 2px solid olive;
+    
+                    .img_circle{
+                        display: none;
+                    }
+    
+                    input{
+                        border: none;
+                        outline: 1px solid $blue;
+                        background-color: $light_silver;
+                        color: $blue;
+                        font-size: 0.78rem;
+                        font-weight: 400;
+                        text-align: center;
+                        padding-left: 0% !important;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        transition: all 0.2s ease-in-out;
+                    }
+    
+                    input:hover{
+                        border: none;
+                        outline: none;
+                        background-color: $blue;
+                        background-image: linear-gradient(315deg, $blue 95%, #f5f7f68e 80%);
+                        color: $white;
+                        box-shadow: 0 1px 2px 0 $blue;
+                    }
+    
+                    small{
+                        display: none !important;
+                    }
+                }
+    
+                .lost_pass{
+                    // border: 2px solid green;
+                    color: $dark_grey;
+                    margin-top: 0.3rem;
+                    margin-bottom: 0.43rem;
+                    margin-left: 1.19rem;
+                    width: 14rem;
+                    height: 1.49rem;
+                    font-size: 0.74rem;
+                    font-weight: 400;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    span{
+                        height: 100%;
+                        position: relative;
+    
+    
+                        #remember{
+                            width: 0.78rem;
+                            height: 0.78rem;
+                            position: absolute;
+                            top: 0.17rem;
+                            left: -1.04rem;
+                        }
+                    }
+                }
+    
+                a{
+                    color: $dark_grey;
+                    margin-top: 0.2rem;
+                    font-size: 0.74rem;
+                    font-weight: 400;
+                }
+    
+                a:hover{
+                    text-decoration: underline 1px solid $blue;
+                    color: $blue;
+                }
+
+                animation: animate_form 0.8s ease-in;
+                @keyframes animate_form {
+                    from{
+                        transform: translateY(1.49rem);
+                    }
+                    to{
+                        transform: translateY(0rem);
+                    }
+                }
+            }
+
+            animation: animate_right_box  0.5s ease-in;
+            @keyframes animate_right_box {
+                from{
+                    transform: translateY(1.49rem);
+                }
+                to{
+                    transform: translateY(0rem);
+                }
+            }
+        }
+    }
+
+    .signup_page{
+        display: none;
+    }
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 999px){
+
+    .login_wrap{
+        width: 44rem;
+        height: 29rem;
+
+        .left_box{
+            padding: 0% 2.3rem;
+
+            section{
+                height: 20.23rem;
+
+                h3{
+                    font-size: 1.5rem;
+                }
+
+                p{
+                    font-size: 0.9rem;
+                }
+
+                .inner_sec_styl{
+                    height: 2.99rem;
+
+                    .sec_styl_name{
+                        margin-left: 0.5rem;
+                        height: 2.9rem;
+
+                        h5{
+                            font-size: 0.95rem;
+                        }
+
+                        p{
+                            font-size: 0.82rem;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .right_box{
+            padding-top: 2rem;
+    
+            h3{
+                padding-top: 0.9rem;
+                font-size: 1.5rem;
+            }
+            
+            p{
+                font-size: 0.9rem;
+            }
+    
+            form{
+    
+                .input_style{
+                    margin-bottom: 0.29rem;
+                    width: 16rem;
+    
+                    .img_circle{
+                        width: 2rem;
+                        height: 2rem;
+                        left: 0.17rem;
+                        top: 0.19rem;
+                        font-size: 0.99rem;
+                    }
+    
+                    input{
+                        height: 2.5rem;
+                        padding-bottom: 0.14rem;
+                        padding-left: 2.62rem;
+                        font-size: 0.9rem;
+                    }
+    
+                    small{
+                        font-size: 0.85rem;
+                    }
+                }
+    
+                .submit{
+    
+                    input{
+                        font-size: 0.9rem;
+                    }
+                }
+    
+                .lost_pass{
+                    height: 1.7rem;
+                    font-size: 0.8rem;
+                }
+    
+                a{
+                    font-size: 0.85rem;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+    .login_wrap{
+        width: 37rem;
+        height: 30rem;
+
+        .left_box{
+            padding: 0% 1.3rem;
+
+            section{
+                height: 20rem;
+
+                h3{
+                    font-size: 1.3rem;
+                }
+
+                p{
+                    font-size: 0.85rem;
+                }
+
+                .inner_sec_styl{
+                    height: 3rem;
+
+                    .sec_styl_name{
+                        margin-left: 0.3rem;
+                        height: 2.95rem;
+
+                        h5{
+                            font-size: 0.98rem;
+                        }
+
+                        p{
+                            font-size: 0.84rem;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .right_box{
+            padding-top: 1rem;
+    
+            h3{
+                padding-top: 1rem;
+                font-size: 1.3rem;
+            }
+            
+            p{
+                font-size: 0.85rem;
+            }
+    
+            form{
+    
+                .input_style{
+                    margin-bottom: 0.29rem;
+                    width: 14rem;
+
+                    .img_circle{
+                        width: 2rem;
+                        height: 2rem;
+                        left: 0.17rem;
+                        top: 0.19rem;
+                        font-size: 0.99rem;
+                    }
+    
+                    input{
+                        height: 2.3rem;
+                        font-size: 0.9rem;
+                    }
+    
+                    small{
+                        font-size: 0.83rem;
+                    }
+                }
+    
+                .submit{
+    
+                    input{
+                        font-size: 0.9rem;
+                    }
+                }
+    
+                .lost_pass{
+                    width: 12rem;
+                    height: 1.7rem;
+                    font-size: 0.84rem;
+                }
+    
+                a{
+                    font-size: 0.85rem;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 555px){
+
+    .login_wrap{
+        width: 38rem;
+
+        .left_box{
+            padding: 0% 1.2rem;
+
+            section{
+                height: 21rem;
+
+                h3{
+                    font-size: 1.4rem;
+                }
+
+                p{
+                    margin-top: -0.5vw;
+                    font-size: 0.92rem;
+                }
+
+                .inner_sec_styl{
+
+                    .sec_styl_name{
+
+                        h5{
+                            font-size: 0.99rem;
+                        }
+
+                        p{
+                            font-size: 0.88rem;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .right_box{
+            padding-top: 0%;
+    
+            h3{
+                padding-top: 1.5rem;
+                font-size: 1.7rem;
+            }
+            
+            p{
+                font-size: 0.89rem;
+            }
+    
+            form{
+    
+                .input_style{
+                    width: 13.5rem;
+
+                    .img_circle{
+                        width: 2rem;
+                        height: 2rem;
+                        left: 0.17rem;
+                        top: 0.19rem;
+                        font-size: 0.99rem;
+                    }
+    
+                    input{
+                        font-size: 0.92rem;
+                    }
+    
+                    small{
+                        font-size: 0.85rem;
+                    }
+                }
+
+                .submit{
+    
+                    input{
+                        font-size: 1rem;
+                    }
+                }
+    
+                .lost_pass{
+                    width: 12rem;
+                    font-size: 0.85rem;
+                }
+    
+                a{
+                    font-size: 0.91rem;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 511px){
+
+    .login_wrap{
+
+        .left_box{
+            padding: 0% 1.1rem;
+
+            section{
+
+                p{
+                    font-size: 0.94rem;
+                }
+
+                .inner_sec_styl{
+
+                    .sec_styl_name{
+                        height: 2.99rem;
+
+                        h5{
+                            font-size: 1rem;
+                        }
+
+                        p{
+                            font-size: 0.92rem;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .right_box{
+    
+            h3{
+                font-size: 1.7rem;
+            }
+            
+            p{
+                font-size: 0.9rem;
+            }
+    
+            form{
+    
+                .input_style{
+    
+                    input{
+                        width: 14rem;
+                        height: 2.3rem;
+                        font-size: 0.99rem;
+                    }
+    
+                    small{
+                        font-size: 0.88rem;
+                    }
+                }
+    
+                .lost_pass{
+                    width: 12.5rem;
+                    font-size: 0.9rem;
+                }
+    
+                a{
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 480px){
+
+    .login_wrap{
+        width: 30rem;
+        height: 33rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .left_box{
+            display: none;
+        }
+    
+        .right_box{
+            width: 100%;
+            padding-top: 0%;
+
+            .logo_box{
+                width: 3.79rem;
+                height: 3.79rem;
+            }
+    
+            h3{
+                padding-top: 1rem;
+                font-size: 1.8rem;
+            }
+            
+            p{
+                font-size: 0.99rem;
+            }
+    
+            form{
+    
+                .input_style{
+                    margin-bottom: 0.29rem;
+                    width: 20rem;
+
+                    .img_circle{
+                        width: 2.4rem;
+                        height: 2.4rem;
+                        left: 0.17rem;
+                        top: 0.19rem;
+                        font-size: 1.25rem;
+                    }
+    
+                    input{
+                        padding-left: 3.2rem;
+                        height: 2.9rem;
+                        font-size: 1.1rem;
+                    }
+    
+                    small{
+                        font-size: 1rem;
+                    }
+                }
+    
+                .submit{
+    
+                    input{
+                        font-size: 1.1rem;
+                    }
+                }
+    
+                .lost_pass{
+                    width: 18rem;
+                    height: 1.9rem;
+                    font-size: 0.98rem;
+
+                    span{
+
+                        #remember{
+                            width: 0.83rem;
+                            height: 0.83rem;
+                            position: absolute;
+                            top: 0.25rem;
+                            left: -1.05rem;
+                        }
+                    }
+                }
+    
+                a{
+                    font-size: 0.98rem;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 380px){
+
+    .login_wrap{
+        width: 26rem;
+        height: 34rem;
+    
+        .right_box{
+
+            .logo_box{
+                width: 3.83rem;
+                height: 3.83rem;
+            }
+    
+            h3{
+                font-size: 1.9rem;
+            }
+            
+            p{
+                font-size: 1.1rem;
+            }
+    
+            form{
+    
+                .input_style{
+
+                    .img_circle{
+                        width: 2.4rem;
+                        height: 2.4rem;
+                        left: 0.17rem;
+                        top: 0.23rem;
+                        font-size: 1.2rem;
+                    }
+    
+                    input{
+                        height: 3rem;
+                        font-size: 1.2rem;
+                        padding-left: 2.9rem;
+                    }
+    
+                    small{
+                        font-size: 1.1rem;
+                    }
+                }
+    
+                .submit{
+    
+                    input{
+                        font-size: 1.2rem;
+                    }
+                }
+    
+                .lost_pass{
+                    font-size: 1.06rem;
+
+                    span{
+
+                        #remember{
+                            width: 0.9rem;
+                            height: 0.9rem;
+                            top: 0.29rem;
+                            left: -1.15rem;
+                        }
+                    }
+                }
+    
+                a{
+                    margin-top: 0.5rem;
+                    font-size: 1.05rem;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 310px){
+
+    .login_wrap{
+        width: 25rem;
+        height: 36rem;
+    }
+
+}

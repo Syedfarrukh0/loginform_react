@@ -1,0 +1,21 @@
+.body_wrap{
+    // border: 2px solid blue;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @import 'Login.scss';
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px){
+
+    .body_wrap{
+        // border: 2px solid blue;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @import 'Login.scss';
+    }
+
+}
