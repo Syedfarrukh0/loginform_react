@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/loginform_react/static/css/main.fe2ccdc6.css",
+    "main.js": "/loginform_react/static/js/main.f5778c13.js",
+    "static/media/social.mp4": "/loginform_react/static/media/social.620f4328504400f35db5.mp4",
+    "static/media/Roboto-Regular.ttf": "/loginform_react/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/Poppins-Regular.ttf": "/loginform_react/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "index.html": "/loginform_react/index.html",
+    "main.fe2ccdc6.css.map": "/loginform_react/static/css/main.fe2ccdc6.css.map",
+    "main.f5778c13.js.map": "/loginform_react/static/js/main.f5778c13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe2ccdc6.css",
+    "static/js/main.f5778c13.js"
+  ]
+}
